@@ -18,5 +18,5 @@ public partial class NhanVien_Quyen
     [StringLength(100)]
     public string ChuThich { get; set; } 
 
-    //
+    
 }
