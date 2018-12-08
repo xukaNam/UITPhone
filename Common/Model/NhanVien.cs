@@ -11,7 +11,48 @@ public partial class NhanVien
     public int MaNhanVien { get; set; }
 
     [StringLength(50)]
-    public string HoTen { get; set; }
+    public string TenNhanvien { get; set; }
+
+    [StringLength(100)]
+    public string DiaChi { get; set; }
+
+    [StringLength(15)]
+    public string SoDienThoai { get; set; }
+
+    [StringLength(30)]
+    public string Email { get; set; }
+
+    [StringLength(10)]
+    public string CMND { get; set; }
+
+    [StringLength(100 )]
+    public string UserName { get; set; }
+
+    [StringLength(50)]
+    public string PassWord { get; set; }
+
+    
+    public bool TrangThai { get; set; }
+
+    
+    public int MaChucVu { get; set; }
+
+    public string Avatar { get; set; }
+
+
+
+
+
+
+
+   
+
+   
+
+
+
+
+
 
     
 }
