@@ -16,8 +16,7 @@ public class HangHoa
     public int GiaBan { get; set; }
 
     public int GiamGia { get; set; }
-
-    [StringLength(200)]
+    
     public int SoLuongTon { get; set; }
 
     [StringLength(50)]

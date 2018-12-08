@@ -7,8 +7,8 @@ using System.Data.Entity.Spatial;
 public partial class PhanQuyen
 {
     [Key]
-    [StringLength(100)]
-    public int MaQuyen { get; set; }
+    [StringLength(50)]
+    public string MaQuyen { get; set; }
 
     [StringLength(100)]
     public string TenQuyen { get; set; }
