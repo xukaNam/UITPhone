@@ -4,19 +4,18 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 
-namespace QLWeb.Models.LogIn
+namespace QLWeb.Models
 {
-    public class LogIn
+    public class LogInModel
     {
         [Required]
         public string UserName { get; set; }
         public string PassWord { get; set; }
-        //public bool RememberMe { get; set; }
-        public LogIn()
+        public LogInModel()
         {
 
         }
-        public LogIn(string UserName, string PassWord)
+        public LogInModel(string UserName, string PassWord)
         {
             this.UserName = UserName;
             this.PassWord = PassWord;
