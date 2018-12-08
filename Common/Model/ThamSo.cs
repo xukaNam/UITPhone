@@ -4,20 +4,17 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Data.Entity.Spatial;
 
-public partial class NhanVien_Quyen
+public partial  class ThamSo
 {
-    
     [Key]
-    public int MaChucVu { get; set; }
-
-    [Key]
-    [StringLength(50)]
-    public string MaQuyen { get; set; }
-
+    public int MaThamSo { get; set; }
 
     [StringLength(100)]
-    public string ChuThich { get; set; }
+    public string TenThamSo { get; set; }
 
+    public int GiaTri { get; set; }
+
+    public DateTime NgayApDung { get; set; }
 
 
 }
